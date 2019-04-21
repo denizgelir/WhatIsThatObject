@@ -12,6 +12,8 @@
 		5D3BBA81226BCCBB005190CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3BBA7F226BCCBB005190CD /* Main.storyboard */; };
 		5D3BBA83226BCCBE005190CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D3BBA82226BCCBE005190CD /* Assets.xcassets */; };
 		5D3BBA86226BCCBE005190CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3BBA84226BCCBE005190CD /* LaunchScreen.storyboard */; };
+		5D3BBA8E226BCD4B005190CD /* FormContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBA8D226BCD4B005190CD /* FormContainerView.swift */; };
+		5D3BBA90226BD125005190CD /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBA8F226BD125005190CD /* MobileNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5D3BBA82226BCCBE005190CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D3BBA85226BCCBE005190CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D3BBA87226BCCBE005190CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D3BBA8D226BCD4B005190CD /* FormContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormContainerView.swift; sourceTree = "<group>"; };
+		5D3BBA8F226BD125005190CD /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				5D3BBA82226BCCBE005190CD /* Assets.xcassets */,
 				5D3BBA84226BCCBE005190CD /* LaunchScreen.storyboard */,
 				5D3BBA87226BCCBE005190CD /* Info.plist */,
+				5D3BBA8D226BCD4B005190CD /* FormContainerView.swift */,
+				5D3BBA8F226BD125005190CD /* MobileNet.mlmodel */,
 			);
 			path = MLapp;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D3BBA90226BD125005190CD /* MobileNet.mlmodel in Sources */,
 				5D3BBA7E226BCCBB005190CD /* ViewController.swift in Sources */,
+				5D3BBA8E226BCD4B005190CD /* FormContainerView.swift in Sources */,
 				5D3BBA7C226BCCBB005190CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
